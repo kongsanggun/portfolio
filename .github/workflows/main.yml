@@ -1,0 +1,24 @@
+name: My Portfolio
+on: [push]
+
+jobs:
+  build: 
+    runs-on : ubuntu-18.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@master
+      
+      - name: cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-build-
+            ${{ runner.OS }}-
+
+      - name: install
+        run: npm install
+    
+      - name: Build
+        run: npm run build
