@@ -6,7 +6,7 @@ jobs:
     runs-on : ubuntu-18.04
     steps:
       - name: checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@main
       
       - name: cache node modules
         uses: actions/cache@v1
