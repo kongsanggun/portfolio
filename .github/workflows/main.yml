@@ -1,12 +1,18 @@
 name: My Portfolio
-on: [push]
+
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
 
 jobs:
-  build: 
-    runs-on : ubuntu-18.04
+  build:
+
+    runs-on : ubuntu-latest
+
     steps:
       - name: checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v3
       
       - name: cache node modules
         uses: actions/cache@v1
