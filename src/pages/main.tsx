@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import Header from '../components/header'
 import Intro from '../components/intro'
@@ -31,6 +31,10 @@ function App() {
       }
     }
   }
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [])
 
   return (
     <div className='bg-[#F9F9FB] dark:bg-[#232438] duration-200'>

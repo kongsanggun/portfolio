@@ -38,10 +38,10 @@ const HeaderComp = () => {
   }, [])
 
   return (
-      <div className = "w-full h-auto text-[#121316] py-3 sm:py-4 border-b-[1.5px] border-b-[#E1E3EC] flex flex-col items-center">
+      <div className = "w-full h-auto text-[#121316] py-6 sm:py-8 border-b-[1.5px] border-b-[#E1E3EC] flex flex-col items-center">
         <div id = "S1" className = 'dark:text-[#F9F9FB] text-3xl sm:text-5xl my-2 sm:my-5 font-["JetBrains_Mono"] font-bold w-[auto] h-auto duration-200'>Profile</div>
 
-        <div className = "w-[90%] max-w-[720px] h-[200px] sm:h-[300px] mt-5 mb-10 rounded-md border-[3px] border-[#E1E3EC] bg-[#F9F9FB] dark:bg-[#a9b5cf] ">
+        <div className = "w-[90%] max-w-[720px] h-[175px] sm:h-[300px] mt-5 mb-10 rounded-md border-[3px] border-[#E1E3EC] bg-[#F9F9FB] dark:bg-[#a9b5cf] ">
           <div className = "w-full h-[45px] sm:h-[90px] font-['JetBrains_Mono'] text-[9px] sm:text-lg font-light flex items-center justify-center"> 
             <div id = 'a_btt' className = "w-[45px] h-[45px] sm:w-[90px] sm:h-[90px] opacity-50 hover:bg-[#E1E3EC] hover:opacity-80 flex items-center justify-center duration-150" onClick={() => {clickA()}}> Birth </div>
             <div id = 'b_btt' className = "w-[45px] h-[45px] sm:w-[90px] sm:h-[90px] opacity-50 hover:bg-[#E1E3EC] hover:opacity-80 flex items-center justify-center duration-150" onClick={() => {clickB()}}> Contact </div>

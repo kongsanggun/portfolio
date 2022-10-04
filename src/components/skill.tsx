@@ -225,7 +225,7 @@ const HeaderComp = () => {
   }, [])
 
   return (
-    <div className="w-full h-auto text-[#121316] py-3 sm:py-4 border-b-[1.5px] border-b-[#BEC0D7] flex flex-col items-center">
+    <div className="w-full h-auto text-[#121316] py-6 sm:py-8 border-b-[1.5px] border-b-[#BEC0D7] flex flex-col items-center">
       <div id="S2" className='dark:text-[#F9F9FB] text-3xl sm:text-5xl my-2 sm:my-5 font-["JetBrains_Mono"] font-bold w-[auto] h-auto duration-200'>Skills</div>
 
       <div className="w-[90%] max-w-[720px] h-[425px] sm:h-[490px] mt-5 mb-10 rounded-md border-[3px] border-[#E1E3EC] bg-[#F9F9FB] dark:bg-[#a9b5cf]">

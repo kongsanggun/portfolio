@@ -10,6 +10,8 @@ module.exports = {
     "./src/components/time.tsx",
     "./src/components/project.tsx",
     "./src/components/footer.tsx",
+    "./src/pages/project1.tsx",
+    "./src/components/project-header.tsx",
   ],
   theme: {
     extend: {
