@@ -7,9 +7,8 @@ const HeaderComp = () => {
   const [isShown2, setIsShown2] = useState(false);
   const [isShown3, setIsShown3] = useState(false);
 
-
   return (
-    <div className="w-full h-auto text-[#F9F9FB] dark:text-[#121316] font-extrabold py-6 sm:py-8 flex flex-col items-center">
+    <div className="w-full h-auto text-[#F9F9FB] dark:text-[#121316] font-extrabold py-6 sm:py-8 flex flex-col items-center select-none">
       <div id="S4" className='text-[#060607] dark:text-[#F9F9FB] text-3xl sm:text-5xl my-2 sm:my-5 font-["JetBrains_Mono"] font-bold w-[auto] h-auto duration-200'>Projects</div>
 
       <Link to= "/project1" className="relative w-[90%] max-w-[720px] h-[150px] sm:h-[200px] mt-5 mb-2 rounded-xl font-['Nanum_Gothic'] text-xl sm:text-3xl" onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} data-modal-toggle="medium-modal">
