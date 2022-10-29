@@ -4,7 +4,8 @@
 ## 백준
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=rekarome)](https://solved.ac/rekarome/)
 ## GitHub
-![상현's GitHub stats](https://github-readme-stats.vercel.app/api?username=kongsanggun&show_icons=true&theme=tokyonight)
+![상현's GitHub stats](https://github-readme-stats.vercel.app/api?username=kongsanggun&show_icons=true&theme=tokyonight)<br/>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kongsanggun&theme=tokyonight)](https://github.com/kongsanggun/github-readme-stats)
 ## Skill
 ![C](https://img.shields.io/badge/C-A8B9CC.svg?&style=for-the-badge&logo=C&logoColor=white) 
 ![C++](https://img.shields.io/badge/C++-00599C.svg?&style=for-the-badge&logo=C++&logoColor=white) 
