@@ -96,9 +96,9 @@ function App() {
       <div className="w-full h-auto text-[#121316] dark:text-[#F9F9FB] py-5 sm:py-8 flex flex-col items-center justify-center">
         <div className='w-[80%] sm:w-[60%] h-auto flex flex-col justify-center'>
           <p className='text-lg sm:text-2xl mb-3 font-bold'>관련 URL</p>
-          <a className='text-xs sm:text-sm font-thin mb-1 break-words' href='https://github.com/kongsanggun/AR_Randering'> 깃헙 : https://github.com/kongsanggun/AR_Randering </a>
-          <a className='text-xs sm:text-sm font-thin mb-1 break-words' href='https://www.youtube.com/watch?v=RStXu9YNDhM'> 영상 : https://www.youtube.com/watch?v=RStXu9YNDhM </a>
-          <a className='text-xs sm:text-sm font-thin break-words' href='https://github.com/jeeliz/jeelizFaceFilter/tree/master/reactThreeFiberDemo'> 참고 라이브러리 : https://github.com/jeeliz/jeelizFaceFilter/tree/master/reactThreeFiberDemo </a>
+          <p className='text-xs sm:text-sm font-thin mb-1'> 깃헙 💻 : <a className = 'break-words hover:cursor-pointer hover:bg-[#b8bbc7] dark:hover:bg-[#7d879c]' href='https://github.com/kongsanggun/AR_Randering'> https://github.com/kongsanggun/AR_Randering </a></p>
+          <p className='text-xs sm:text-sm font-thin mb-1'> 영상 링크 🎥 : <a className = 'break-words hover:cursor-pointer hover:bg-[#b8bbc7] dark:hover:bg-[#7d879c]' href='https://www.youtube.com/watch?v=RStXu9YNDhM'> https://www.youtube.com/watch?v=RStXu9YNDhM </a></p>
+          <p className='text-xs sm:text-sm font-thin mb-1'> 참고 라이브러리 👀 : <a className = 'break-words hover:cursor-pointer hover:bg-[#b8bbc7] dark:hover:bg-[#7d879c]' href='https://github.com/jeeliz/jeelizFaceFilter/tree/master/reactThreeFiberDemo'> https://github.com/jeeliz/jeelizFaceFilter/tree/master/reactThreeFiberDemo </a></p>
         </div>
       </div>
     )
@@ -169,12 +169,12 @@ function App() {
         <div className='w-[80%] sm:w-[calc(45%-10px)] h-auto sm:mr-[20%] '>
           <p className='text-lg sm:text-2xl mb-3 font-bold'>후기</p>
           <p className='text-xs sm:text-sm font-thin'>
-            위 프로젝트는 졸업 프로젝트의 주제인 얼굴을 인식하는 만드는 주제에 팀원 중에 AR를 접목시키면 어떠나는 의견을 적용하여 만든 프로젝트입니다. 
-            초기에는 웹과 앱 동시에 적용되는 React Native 위주의 개발을 고안하였지만 개발환경을 설정하는 데에 많은 어려움을 느껴 웹을 통하여 적용되는 서비스로 변하게 되었습니다.
-            위의 웹 페이지를 개발하기 위하여 매주 금요일 오후마다 팀원들끼리 모아서 논의를 하면서 점차 수정하는 쪽으로 나아갔습니다. 
-            얼굴 인식 구현같은 경우 시간이 촉박하였기 때문에 일일이 얼굴 데이터를 모으기 보다는 외부 라이브러리를 이용하여 구현하는 쪽으로 나아갔습니다.
-            3D 모델 같은 경우 외부의 3D를 이용하여 액세사리 별로 구분하였습니다. 처음에는 모자를 적용하였지만 담당 교수님의 제안으로 모자대신 안경으로 변경하게 되었습니다.  
-            아쉽게도 시중에 위와 같은 기능을 가지고 있는 기능과의 차별점을 가지지 못하여 교내 대회의 입상에 실패하였지만 리엑트를 처음 접하는 만큼 어떻게 개발해야할지 알게 되는 시간이었습니다.
+            위 프로젝트는 졸업 프로젝트의 주제인 얼굴을 인식하는 만드는 주제에 팀원 중에 AR를 접목시키면 어떠나는 의견을 적용하여 만든 프로젝트입니다.<br/>
+            초기에는 웹과 앱 동시에 적용되는 React Native 위주의 개발을 고안하였지만 개발환경을 설정하는 데에 많은 어려움을 느껴 웹을 통하여 적용되는 서비스로 변하게 되었습니다.<br/>
+            위의 웹 페이지를 개발하기 위하여 매주 금요일 오후마다 팀원들끼리 모아서 논의를 하면서 점차 수정하는 쪽으로 나아갔습니다.<br/>
+            얼굴 인식 구현같은 경우 시간이 촉박하였기 때문에 일일이 얼굴 데이터를 모으기 보다는 외부 라이브러리를 이용하여 구현하는 쪽으로 나아갔습니다.<br/>
+            3D 모델 같은 경우 외부의 3D를 이용하여 액세사리 별로 구분하였습니다. 처음에는 모자를 적용하였지만 담당 교수님의 제안으로 모자대신 안경으로 변경하게 되었습니다.<br/>  
+            아쉽게도 시중에 위와 같은 기능을 가지고 있는 기능과의 차별점을 가지지 못하여 교내 대회의 입상에 실패하였지만 리엑트를 처음 접하는 만큼 어떻게 개발해야할지 알게 되는 시간이었습니다.<br/>
           </p>
         </div>
       </div>

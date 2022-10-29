@@ -76,6 +76,15 @@ const HeaderComp = () => {
           <time className="block mb-2 sm:mb-4 text-sm sm:text-base font-normal leading-none text-gray-400 dark:text-gray-500">2022.8.2 – 2022.9.8</time>
           <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400">현 업무에서 사용하고 있는 여러 지식을 배우면서 상황에 따라 유용하게 사용할 기회가 되었습니다.</p>
         </li>
+
+        <li className="ml-4 sm:ml-6 mb-4 sm:mb-6 h-auto">
+          <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-[#232438] rounded-full dark:bg-[#F9F9FB]"/>
+          <div className='h-4 mb-4 sm:h-6 sm:mb-6'/>
+          <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">GS ITM 인턴 활동</h3>
+          <time className="block mb-2 sm:mb-4 text-sm sm:text-base font-normal leading-none text-gray-400 dark:text-gray-500">2022.11.01 – 2022.12.31</time>
+          <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400"></p>
+        </li>
+
         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-[#232438] rounded-full dark:bg-[#F9F9FB]"/>
       </ol>
 

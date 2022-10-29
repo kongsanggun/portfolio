@@ -46,6 +46,7 @@ const HeaderComp = () => {
             <div id = 'a_btt' className = "w-[45px] h-[45px] sm:w-[90px] sm:h-[90px] opacity-50 hover:bg-[#E1E3EC] hover:opacity-80 flex items-center justify-center duration-150" onClick={() => {clickA()}}> Birth </div>
             <div id = 'b_btt' className = "w-[45px] h-[45px] sm:w-[90px] sm:h-[90px] opacity-50 hover:bg-[#E1E3EC] hover:opacity-80 flex items-center justify-center duration-150" onClick={() => {clickB()}}> Contact </div>
             <div className = "w-[45px] h-[45px] sm:w-[90px] sm:h-[90px] opacity-50 hover:bg-[#E1E3EC] hover:opacity-80 flex items-center justify-center duration-150" onClick={() => { window.open('https://github.com/kongsanggun'); return false }}><img src='img/GitHub-Mark-64px.png' alt="git_action" className="h-[32px] w-[32px] sm:h-[64px] sm:w-[64px]" /></div>
+            <div className = "w-[45px] h-[45px] sm:w-[90px] sm:h-[90px] opacity-50 hover:bg-[#E1E3EC] hover:opacity-80 flex items-center justify-center duration-150" onClick={() => { window.open('https://solved.ac/profile/rekarome'); return false }}>Baekjoon</div>
 
           </div>
           <div className = "w-full h-[124px] sm:h-[204px] text-lg sm:text-2xl bg-[#E1E3EC] font-['Nanum_Gothic'] font-bold"> 
@@ -56,6 +57,9 @@ const HeaderComp = () => {
             <div id = 'b' className='w-full h-full hidden flex-col items-center justify-center duration-200'>
               <p className='mb-2'> Phone : 010-3193-7133 </p>
               <p> E-mail : dodoi77@naver.com </p>
+            </div>
+            <div id = 'c' className='w-full h-full hidden flex-col items-center justify-center duration-200'>
+              <p className='mb-2'> Phone : 010-3193-7133 </p>
             </div>
           </div>
         </div>

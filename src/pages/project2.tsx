@@ -102,9 +102,9 @@ function App() {
       <div className="w-full h-auto text-[#121316] dark:text-[#F9F9FB] py-5 sm:py-8 flex flex-col items-center justify-center">
         <div className='w-[80%] sm:w-[60%] h-auto flex flex-col justify-center'>
           <p className='text-lg sm:text-2xl mb-3 font-bold'>관련 URL</p>
-          <a className='text-xs sm:text-sm font-thin mb-1 break-words' href='https://spfunc.ml/'> 웹 링크 : https://spfunc.ml/ </a>
-          <a className='text-xs sm:text-sm font-thin mb-1 break-words' href='https://github.com/team-special-week'> 깃헙 : https://github.com/team-special-week </a>
-          <a className='text-xs sm:text-sm font-thin break-words' href='https://www.youtube.com/watch?v=OSPdSbOL3OA'> 영상 : https://www.youtube.com/watch?v=OSPdSbOL3OA </a>
+          <p className='text-xs sm:text-sm font-thin mb-1'> 웹 링크 🖥 : <a className = 'break-words hover:cursor-pointer hover:bg-[#b8bbc7] dark:hover:bg-[#7d879c]' href='https://spfunc.ml/'> https://spfunc.ml/ </a> </p>
+          <p className='text-xs sm:text-sm font-thin mb-1'> 깃헙 💻 : <a className = 'break-words hover:cursor-pointer hover:bg-[#b8bbc7] dark:hover:bg-[#7d879c]' href='https://github.com/team-special-week'> https://github.com/team-special-week </a> </p>
+          <p className='text-xs sm:text-sm font-thin mb-1'> 영상 링크 🎥 : <a className = 'break-words hover:cursor-pointer hover:bg-[#b8bbc7] dark:hover:bg-[#7d879c]' href='https://www.youtube.com/watch?v=OSPdSbOL3OA'> https://www.youtube.com/watch?v=OSPdSbOL3OA </a> </p>
         </div>
       </div>
     )
@@ -168,11 +168,11 @@ function App() {
         <div className='w-[80%] sm:w-[calc(45%-10px)] h-auto sm:mr-[20%] '>
           <p className='text-lg sm:text-2xl mb-3 font-bold'>후기</p>
           <p className='text-xs sm:text-sm font-thin'>
-            네트워크를 활용한 어플리케이션이 많아짐에 따라 서버리스의 수요 또한 늘어나게 되었고 나중에 여러가지 기능을 구현하기 위하여 클라우드 웹 서비스를 구현해보고 싶었습니다. 
-            또한 마침 이 시기에 SW 개발자 공모전이 열린 시기라서 공모전 입상과 개발 실력을 늘릴려는 등의 목적으로 프로젝트를 진행하게 되었습니다. 
-            백엔드를 개발하고 있는 지인을 모집하여 제가 프론트 엔드를 담당하는 쪽으로 프로젝트를 시작하게 되었습니다. 
-            약 5주 간의 개발 기간 동안 매 주 주말마다 대면 혹은 비대면 방식으로 만나 뭘 개발해야할지 토의하는 방향으로 개발하였습니다.
-            중간에 CSS 관련으로 프로젝트를 다 갈아엎어야 할 위기를 직면하였지만 결국에는 코드를 수정하는 쪽으로 결정하여 무사히 프로젝트를 완성시켜 해당 보고서를 작성하고 공모전에 무사히 출품할 수 있었습니다.
+            네트워크를 활용한 어플리케이션이 많아짐에 따라 서버리스의 수요 또한 늘어나게 되었고 나중에 여러가지 기능을 구현하기 위하여 클라우드 웹 서비스를 구현해보고 싶었습니다.<br/>
+            또한 마침 이 시기에 SW 개발자 공모전이 열린 시기라서 공모전 입상과 개발 실력을 늘릴려는 등의 목적으로 프로젝트를 진행하게 되었습니다.<br/>
+            백엔드를 개발하고 있는 지인을 모집하여 제가 프론트 엔드를 담당하는 쪽으로 프로젝트를 시작하게 되었습니다.<br/>
+            약 5주 간의 개발 기간 동안 매 주 주말마다 대면 혹은 비대면 방식으로 만나 뭘 개발해야할지 토의하는 방향으로 개발하였습니다.<br/>
+            중간에 CSS 관련으로 프로젝트를 다 갈아엎어야 할 위기를 직면하였지만 결국에는 코드를 수정하는 쪽으로 결정하여 무사히 프로젝트를 완성시켜 해당 보고서를 작성하고 공모전에 무사히 출품할 수 있었습니다.<br/>
             비록 공모전 입상에는 실패하였지만 개발 경험에서는 많은 것을 얻어갈 수 있었던 기회였습니다. 예를 들어 Git 같은 경우 Branch를 배포용, 기능시험용 등으로 나뉘어서 쓰는 등 Repo 파이프라인을 어떻게 관리하는 지 알 수 있었고,
             Tailwind css, Ant Design 등 사용하면 편리한 외부 CSS 라이브러리에 대해서 알 수 있었습니다. 실제로 위의 프로젝트 진행 이후로 CSS 대신 Tailwind css를 이용하여 웹 인터페이스를 제작하고 있습니다.</p>
         </div>

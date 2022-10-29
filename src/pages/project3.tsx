@@ -92,8 +92,8 @@ function App() {
       <div className="w-full h-auto text-[#121316] dark:text-[#F9F9FB] py-5 sm:py-8 flex flex-col items-center justify-center">
         <div className='w-[80%] sm:w-[60%] h-auto flex flex-col justify-center'>
           <p className='text-lg sm:text-2xl mb-3 font-bold'>관련 URL</p>
-          <a className='text-xs sm:text-sm font-thin mb-1 break-words' href='https://cutesnom.herokuapp.com/'> 웹 링크 : https://cutesnom.herokuapp.com/ </a>
-          <a className='text-xs sm:text-sm font-thin break-words' href='https://github.com/kongsanggun/Taiko-Info'> 깃헙 : https://github.com/kongsanggun/Taiko-Info </a>
+          <p className='text-xs sm:text-sm font-thin mb-1'> 웹 링크 🖥 : <a className = 'break-words hover:cursor-pointer hover:bg-[#b8bbc7] dark:hover:bg-[#7d879c]' href='https://cutesnom.herokuapp.com/'> 웹 링크 : https://cutesnom.herokuapp.com/ </a> </p>
+          <p className='text-xs sm:text-sm font-thin mb-1'> 깃헙 💻 : <a className = 'break-words hover:cursor-pointer hover:bg-[#b8bbc7] dark:hover:bg-[#7d879c]' href='https://github.com/kongsanggun/Taiko-Info'> 깃헙 : https://github.com/kongsanggun/Taiko-Info </a> </p>
         </div>
       </div>
     )
@@ -157,12 +157,12 @@ function App() {
         <div className='w-[80%] sm:w-[calc(45%-10px)] h-auto sm:mr-[20%] '>
           <p className='text-lg sm:text-2xl mb-3 font-bold'>후기</p>
           <p className='text-xs sm:text-sm font-thin'>
-            위 프로젝트는 평소에 제가 즐겨 하던 '태고의 달인' 게임의 난이도 서열표를 이미지로 수정하는 것이 아닌 웹 페이지를 구현하여 좀 더 쉽게 수정할 수 있는 것이 주요 동기였습니다. 
-            게다가 게임 내의 유저 데이터를 가져와서 자신의 실력이 어느 정도 나타내었는지 알기 쉽게 알려 주기 위하여 연동 기능을 구현하게 되었습니다.
-            위의 주 기능을 구현을 하기 위하여 아무리 웹 페이지를 조사해보아도 유저 데이터를 직접 가져오는 API가 없었습니다. 
-            따라서 데이터를 가져오는 기능을 구현하기 위해서 puppeteer라는 라이브러리를 통하여 데이터를 자동으로 가져오는 기능을 구현하였습니다.  
+            위 프로젝트는 평소에 제가 즐겨 하던 '태고의 달인' 게임의 난이도 서열표를 이미지로 수정하는 것이 아닌 웹 페이지를 구현하여 좀 더 쉽게 수정할 수 있는 것이 주요 동기였습니다.<br/> 
+            게다가 게임 내의 유저 데이터를 가져와서 자신의 실력이 어느 정도 나타내었는지 알기 쉽게 알려 주기 위하여 연동 기능을 구현하게 되었습니다.<br/>
+            위의 주 기능을 구현을 하기 위하여 아무리 웹 페이지를 조사해보아도 유저 데이터를 직접 가져오는 API가 없었습니다.<br/> 
+            따라서 데이터를 가져오는 기능을 구현하기 위해서 puppeteer라는 라이브러리를 통하여 데이터를 자동으로 가져오는 기능을 구현하였습니다.<br/>  
             혼자서 개발을 하였기 때문에 설계 및 배포와 관련된 여러 가지 시행착오를 거쳤지만 배포에 문제가 생겨 비록 반쪽짜리 결과물을 낳게 되었지만,
-            테스트를 통하여 해당 웹사이트를 이용한 주위 사람들의 긍정적인 반응을 직간접적으로 느끼게 되면서 개발에 대해 크나큰 자신감이 생기는 기회가 되었습니다.
+            테스트를 통하여 해당 웹사이트를 이용한 주위 사람들의 긍정적인 반응을 직간접적으로 느끼게 되면서 개발에 대해 크나큰 자신감이 생기는 기회가 되었습니다.<br/>
             추후 웹 개발 실력을 키워서 위 웹페이지를 보완하게 된다면 puppeteer 라이브러리의 여러 기능을 이용하여 서열표를 이미지로 변환하여 로컬 스토리지에 다운로드하는 기능과
             소셜 로그인을 이용하여 웹 자체의 로그인 기능을 추가할 계획이 있습니다. 또한 백엔드 같은 경우 직접 로컬로 json을 불러오는 방식이 아닌 DB 서버를 이용하여 불러오는 방식으로 구현할 계획입니다.
           </p>
