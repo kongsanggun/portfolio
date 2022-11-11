@@ -80,7 +80,7 @@ const HeaderComp = () => {
         <li className="ml-4 sm:ml-6 mb-4 sm:mb-6 h-auto">
           <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-[#232438] rounded-full dark:bg-[#F9F9FB]"/>
           <div className='h-4 mb-4 sm:h-6 sm:mb-6'/>
-          <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">GS ITM 인턴 활동</h3>
+          <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">GS ITM C;luv 3기 활동</h3>
           <time className="block mb-2 sm:mb-4 text-sm sm:text-base font-normal leading-none text-gray-400 dark:text-gray-500">2022.11.01 – 2022.12.31</time>
           <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400"></p>
         </li>
