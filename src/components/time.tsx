@@ -40,7 +40,7 @@ const HeaderComp = () => {
         <li className="ml-4 sm:ml-6 mb-4 sm:mb-6 h-auto">
           <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-[#232438] rounded-full dark:bg-[#F9F9FB]"/>
           <div className='h-4 mb-4 sm:h-6 sm:mb-6'/>
-          <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">HTML 웹 개발 스터티 진행</h3>
+          <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">HTML 웹 개발 스터디 진행</h3>
           <time className="block mb-2 sm:mb-4 text-sm sm:text-base font-normal leading-none text-gray-400 dark:text-gray-500">2020.6 - 2020.7</time>
           <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400"> 단순히 강의에서 끝나는 것을 넘어 위 스터디를 통하여 웹 개발의 기초를 다졌던 기회였습니다. </p>
         </li>
@@ -82,7 +82,7 @@ const HeaderComp = () => {
           <div className='h-4 mb-4 sm:h-6 sm:mb-6'/>
           <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">GS ITM C;luv 3기 활동</h3>
           <time className="block mb-2 sm:mb-4 text-sm sm:text-base font-normal leading-none text-gray-400 dark:text-gray-500">2022.11.01 – 2022.12.31</time>
-          <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400"></p>
+          <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400">실무에서 필요한 기술과 어떠한 방법으로 프로젝트가 진행이 되는지 학습하고 있습니다.</p>
         </li>
 
         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-[#232438] rounded-full dark:bg-[#F9F9FB]"/>
