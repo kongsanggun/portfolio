@@ -13,6 +13,7 @@ module.exports = {
     "./src/pages/project1.tsx",
     "./src/pages/project2.tsx",
     "./src/pages/project3.tsx",
+    "./src/pages/plateng.tsx/",
     "./src/components/project-header.tsx",
   ],
   theme: {
