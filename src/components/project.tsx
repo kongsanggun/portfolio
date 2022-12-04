@@ -33,12 +33,6 @@ const HeaderComp = () => {
         {isShown3 && (<div className='absolute bottom-[calc(26.5%)] left-[7px] sm:bottom-[calc(50%-25px)] sm:left-[calc(50%-230.5px)] text-sm sm:text-base font-semiblod'> ‘태고의 달인’이라는 게임의 비공식 서열표를 나타내고, <br /> 사용자의 기록을 토대로 자동으로 갱신하여 나타내는 웹사이트 입니다. </div>)}
       </Link>
 
-      <Link to= "/plat" className="relative w-[90%] max-w-[720px] h-[150px] sm:h-[200px] mt-5 mb-12 rounded-xl font-['Nanum_Gothic'] text-xl sm:text-3xl" onMouseEnter={() => setIsShown4(true)} onMouseLeave={() => setIsShown4(false)}>
-        <div className="absolute w-full h-full bg-[#121316] dark:bg-[#F9F9FB] opacity-75 hover:opacity-[.45] duration-150 rounded-xl" />
-        {!isShown4 && (<div className='absolute bottom-[calc(50%-14px)] left-[calc(50%-70px)] sm:bottom-[calc(50%-18px)] sm:left-[calc(50%-210px)]'> IT 세미나 - Platform Enginnering </div>)}
-        {isShown4 && (<div className='absolute bottom-[calc(26.5%)] left-[7px] sm:bottom-[calc(50%-25px)] sm:left-[calc(50%-230.5px)] text-sm sm:text-base font-semiblod'> Platform Enginnering를 주제로 IT 세미나를 준비하게 되면서 <br /> 관련 자료를 조사하는 계기가 되었습니다. </div>)}
-      </Link>
-
     </div>
   )
 }

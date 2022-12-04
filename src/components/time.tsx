@@ -40,7 +40,7 @@ const HeaderComp = () => {
         <li className="ml-4 sm:ml-6 mb-4 sm:mb-6 h-auto">
           <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-[#232438] rounded-full dark:bg-[#F9F9FB]"/>
           <div className='h-4 mb-4 sm:h-6 sm:mb-6'/>
-          <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">HTML 웹 개발 스터티 진행</h3>
+          <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">HTML 웹 개발 스터디 진행</h3>
           <time className="block mb-2 sm:mb-4 text-sm sm:text-base font-normal leading-none text-gray-400 dark:text-gray-500">2020.6 - 2020.7</time>
           <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400"> 단순히 강의에서 끝나는 것을 넘어 위 스터디를 통하여 웹 개발의 기초를 다졌던 기회였습니다. </p>
         </li>
@@ -66,7 +66,7 @@ const HeaderComp = () => {
           <div className='h-4 mb-4 sm:h-6 sm:mb-6'/>
           <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">정보처리기사 취득</h3>
           <time className="block mb-2 sm:mb-4 text-sm sm:text-base font-normal leading-none text-gray-400 dark:text-gray-500">2022. 9</time>
-          <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400">교내에서 배웠던 CS를 복습하게 되거나 해당 실무에 대해서 어느정도 지식을 알아보는 기회가 되었습니다.</p>
+          <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400">교내에서 배웠던 CS를 복습하게 되거나 해당 실무에 대해서 어느정도 지식을 알아보게 되는 기회가 되었습니다.</p>
         </li>
 
         <li className="ml-4 sm:ml-6 mb-4 sm:mb-6 h-auto">
