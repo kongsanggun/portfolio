@@ -81,8 +81,8 @@ const HeaderComp = () => {
           <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-[#232438] rounded-full dark:bg-[#F9F9FB]"/>
           <div className='h-4 mb-4 sm:h-6 sm:mb-6'/>
           <h3 className="mb-1 sm:mb-3 text-lg sm:text-2xl font-semibold text-[#121316] dark:text-[#F9F9FB]">C;lve 3기 - GS ITM 인턴 활동</h3>
-          <time className="block mb-2 sm:mb-4 text-sm sm:text-base font-normal leading-none text-gray-400 dark:text-gray-500">2022.11.01 – 2022.12.31</time>
-          <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400">실제 상황을 기반으로 팀 프로젝트를 진행하면서 실무에서 어떻게 프로젝트가 진행되는지 경험하고 있는 중입니다.</p>
+          <time className="block mb-2 sm:mb-4 text-sm sm:text-base font-normal leading-none text-gray-400 dark:text-gray-500">2022.11.01 – 2022.12.28</time>
+          <p className="text-sm sm:text-base font-normal text-gray-500 dark:text-gray-400">팀 프로젝트를 기반으로 인턴쉽을 진행하면서 실 현장에서 어떻게 진행되는지 경험하였습니다. 또한 여러 언어를 배울 수 있는 기회가 되었습니다.</p>
         </li>
 
         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-[#232438] rounded-full dark:bg-[#F9F9FB]"/>
